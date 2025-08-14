@@ -138,10 +138,10 @@ img {
 .section-main {
   max-width: 1440px;
   margin: 0 auto;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: #2e2f42;
+  background-color: #2e2f42;
   padding: 188px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -299,7 +299,7 @@ img {
 }
 .social-media {
   display: flex;
-  gap: 16px;
+  gap: 24px;
   align-items: center;
   justify-content: center;
 }
@@ -434,6 +434,11 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.social-media-bottom {
+  display: flex;
+  gap: 16px;
 }
 .footer-logo {
   display: inline-block;
